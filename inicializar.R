@@ -1,5 +1,6 @@
 ### ficheiro com as intrucçoes para iniciar o projecto ###
 
+
 ### packages adicionais ###
 
 library(stringr)
@@ -22,3 +23,5 @@ do <- paste0(dp,"/output/")
 # ficheiro com os dados originais - fd
 fd <- paste0(dd,list.files(dd))
 fd <- read_excel(fd)
+# grava o objecto fd no directorio dados - fd.Rdata
+save(fd,file = paste0(do,"fd.Rdata"))

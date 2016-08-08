@@ -7,6 +7,7 @@ library(stringr)
 library(lubridate)
 library(readxl)
 library(dplyr)
+library(googlesheets)
 
 
 ### directorios do projecto ###

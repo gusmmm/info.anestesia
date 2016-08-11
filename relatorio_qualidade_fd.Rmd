@@ -1,0 +1,19 @@
+---
+title: "relatorio_qualidade_fd"
+author: "gustavo_montanha"
+date: "August 5, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+###Nome das colunas - variaveis ### \
+** Especialidade **
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+source("inicializar.R")
+table(fd$Especialidade)
+```
+
+

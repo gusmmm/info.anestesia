@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-###Nome das colunas - variaveis ### \
+###Nome das colunas - variaveis \
 ** Especialidade **
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 source("inicializar.R")

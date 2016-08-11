@@ -8,7 +8,10 @@ library(lubridate)
 library(readxl)
 library(dplyr)
 library(googlesheets)
+library(ProjectTemplate)
 
+# usa o projectTemplante para gerir o projecto
+create.project("info.anestesia")
 
 ### directorios do projecto ###
 
